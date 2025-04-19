@@ -17,7 +17,7 @@ std::vector<uint8_t> ReadFile(const std::string& filename) {
 
 int main(int argc, char** argv) {
     if (argc < 2) {
-        std::cerr << "Usage: decode_mp3 <file.mp3>" << std::endl;
+        std::cerr << "Usage: audio_compressor <file.mp3>" << std::endl;
         return 1;
     }
 
